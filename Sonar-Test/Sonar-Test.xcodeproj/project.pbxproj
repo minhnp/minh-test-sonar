@@ -12,6 +12,8 @@
 		84011FD323E92E10009D3F81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84011FD123E92E10009D3F81 /* Main.storyboard */; };
 		84011FD523E92E14009D3F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84011FD423E92E14009D3F81 /* Assets.xcassets */; };
 		84011FD823E92E14009D3F81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84011FD623E92E14009D3F81 /* LaunchScreen.storyboard */; };
+		84707E9723EA80320097AC10 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84707E9523EA80320097AC10 /* HomeViewController.swift */; };
+		84707E9823EA80320097AC10 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84707E9623EA80320097AC10 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		84011FD423E92E14009D3F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84011FD723E92E14009D3F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84011FD923E92E14009D3F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84707E9523EA80320097AC10 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84707E9623EA80320097AC10 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		84011FCC23E92E10009D3F81 /* Sonar-Test */ = {
 			isa = PBXGroup;
 			children = (
+				84707E9323EA80140097AC10 /* ViewControllers */,
 				84011FCD23E92E10009D3F81 /* AppDelegate.swift */,
 				84011FCF23E92E10009D3F81 /* ViewController.swift */,
 				84011FD123E92E10009D3F81 /* Main.storyboard */,
@@ -62,6 +67,23 @@
 				84011FD923E92E14009D3F81 /* Info.plist */,
 			);
 			path = "Sonar-Test";
+			sourceTree = "<group>";
+		};
+		84707E9323EA80140097AC10 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84707E9423EA80260097AC10 /* HomeViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84707E9423EA80260097AC10 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84707E9523EA80320097AC10 /* HomeViewController.swift */,
+				84707E9623EA80320097AC10 /* HomeViewController.xib */,
+			);
+			path = HomeViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +147,7 @@
 				84011FD823E92E14009D3F81 /* LaunchScreen.storyboard in Resources */,
 				84011FD523E92E14009D3F81 /* Assets.xcassets in Resources */,
 				84011FD323E92E10009D3F81 /* Main.storyboard in Resources */,
+				84707E9823EA80320097AC10 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +160,7 @@
 			files = (
 				84011FD023E92E10009D3F81 /* ViewController.swift in Sources */,
 				84011FCE23E92E10009D3F81 /* AppDelegate.swift in Sources */,
+				84707E9723EA80320097AC10 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
